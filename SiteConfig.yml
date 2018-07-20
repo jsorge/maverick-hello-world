@@ -1,0 +1,17 @@
+# The title of the website. Goes in the header.
+title: My Maverick Site
+# The description of the website. Goes in the header.
+description: This is my new blog
+# The root URL of the site
+url: https://maverick.sample
+# The description that goes in the <meta> tag in html. Not rendered.
+metaDescription: I just setup this new Maverick site. It's great!
+# The number of posts that should go on the front page, and archive pages.
+batchSize: 5
+# Use this if you want to use the git autodeploy setup.
+autodeploy:
+  # The URL of the repository where the site will be kept.
+  url: git@github.com:jsorge/maverick-hello-world.git
+  # The directory on the server where the site repo will be kept.
+  directory: /var/www/maverick
+  
